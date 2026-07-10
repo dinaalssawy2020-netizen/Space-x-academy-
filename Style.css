@@ -57,3 +57,29 @@ h1 {
     transform: scale(1.1);
     box-shadow: 0 0 25px #00ffff;
 }
+/* ده للموبايل والتابلت */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    .container {
+        padding: 0;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    .course {
+        padding: 20px 15px;
+        margin: 15px 0;
+        border-radius: 15px;
+    }
+
+    .btn {
+        width: 90%;
+        font-size: 16px;
+        padding: 12px 20px;
+    }
+    }
